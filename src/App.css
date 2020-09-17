@@ -9,3 +9,16 @@ body {
   color: #fff;
   font-family: helvetica;
 }
+
+ul {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+li {
+  list-style-type: none;
+  padding: .3rem;
+}
+
+
