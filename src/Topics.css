@@ -1,0 +1,11 @@
+.topics {
+    padding: 0 13%;
+}
+
+.topics > ul  {
+    flex-direction: column;
+}
+
+.topics > ul > li {
+    padding: .8rem;
+}

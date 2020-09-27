@@ -1,53 +1,19 @@
 body {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .App {
-  text-align: center;
-  background-color: #666;
-  color: #fff;
-  font-family: helvetica;
+    text-align: center;
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+    font-family: var(--main-font);
 }
 
 ul {
-  padding: 1rem 0 0 0;
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
-.topics {
-  padding: 0 13%;
-}
-
-.topics > ul  {
-  flex-direction: column;
-}
-
-.topics > ul > li {
-  padding: .8rem;
-}
-
-li > a {
-  padding: .6rem;
-  text-decoration: none;
-  color: #fff;
-  border: 1px solid #666;
-  border-radius: 5px;
-  box-shadow: 0 0 rgba(0, 0, 0, .002);
-  transition: border .5s, box-shadow .5s;
-}
-
-li > a:hover {
-  padding: .6rem;
-  color: #ddd;
-  border: 1px solid #999;
-  box-shadow: 4px 4px rgba(0, 0, 0, .2);
-  transition: border 2s, box-shadow 2s;
-}
-
-li > a:active {
-    color: #ccc;
-    background-color: rgba(255, 255, 255, .03);
-}

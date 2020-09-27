@@ -1,0 +1,19 @@
+.info {
+	padding: 0 13%;
+}
+
+.info > ul {
+	flex-direction: column;
+}
+
+.info > ul > li {
+	/*background-color: red;*/
+	/*padding: 2rem;*/
+	margin: 1.2rem;
+}
+
+.info > ul > li > a {
+	border: 1px solid var(--hover-bg-color);
+	padding: 1rem;
+	background-color: rgb(255, 0, 255);
+}
